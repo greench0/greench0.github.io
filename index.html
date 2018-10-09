@@ -4,14 +4,18 @@
     <head>
         <meta charset="UTF-8">
         <title>Portfolio</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" type="text/css" href="css/style-2.css"> -->
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
       </head>
 
 <body>
   <header>
+      <h1 id="logo">Chris Green</h1>
     <nav>
-    <h1 id="logo">Chris Green</h1>
+    
     <ul>
           <li class="vline"><a href="index.html">Portfolio</a></li>
           <li class="vline"><a href="about.html">about</a></li>
@@ -26,13 +30,23 @@
     <h2>Portfolio</h2>
     <hr>
             
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="images/blue-eye.png" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title" style="color:#">Psychic Game</h3>
+        <p class="card-text">A basic Guessing game where the computer generates a random letter a - z and you have to guess what it is.</p>
+        
+        
+        <a href="https://greench0.github.io/Psychic-Game/index.html" class="btn btn-primary">Psychic Game</a>
+        <a href="https://github.com/greench0/Psychic-Game" class="btn btn-primary">github link</a>
 
-   
-
-  <a href=" https://greench0.github.io/Psychic-Game/index.html">Psychic Game</a>
+      </div>
+    </div>
 
     
-      
+  
+
+  
    
  
    
@@ -43,9 +57,13 @@
       copyright &copy;	
      </footer>
 
-     <div id="bg">
+     <!-- <div id="bg">
         <img src="images/shattered.png" alt="">
-      </div>
+      </div> -->
+      <div id="left"></div>
+      <div id="right"></div>
+      <div id="top"></div>
+      <div id="bottom"></div>
 </body>
 
 </html>
