@@ -36,7 +36,15 @@ body {
 		#top { top: 0; }
     #bottom { bottom: 0; }
   
-    
+
+  .card {
+/* background: pink; */
+float: left;
+margin: 0 0 20px -20px;
+
+
+  }
+
 .text-center {
   {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -352,9 +360,8 @@ section {
    
   
   }
-  card {
-    border-bottom: 1px solid #dddddd;
-  }
+  
+
 
 
   #logo {
