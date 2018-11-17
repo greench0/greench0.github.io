@@ -374,7 +374,9 @@ line-height: 200%;
   }
   
 
-
+.card {
+  float: left;
+}
 
   #logo {
     background: #3333cc;
