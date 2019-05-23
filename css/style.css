@@ -161,6 +161,11 @@ img {
   width: 200px;
 }
 
+a[title] {
+  color: purple;
+  text-decoration: underline;
+}
+
 .image {
 padding: 15px 25px 0px 0px;
 }
@@ -240,11 +245,11 @@ input[type=submit]:hover {
 
 a {
   color:#3333cc;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: #777777;
 }
 
